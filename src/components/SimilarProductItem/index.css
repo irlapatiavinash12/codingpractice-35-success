@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.list-item-styling {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 27vh;
+  width: 25vw;
+  padding: 20px;
+}
+
+.image-styling {
+  height: 90%;
+  width: 90%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.title-styling {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.brand-styling {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 0px;
+}
+
+.cost-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  padding: 5px;
+}
+
+.cost-styling {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #3b82f6;
+  color: #ffffff;
+  justify-content: space-around;
+}
+
+.star-img-styling {
+  height: 14px;
+  width: 14px;
+}
